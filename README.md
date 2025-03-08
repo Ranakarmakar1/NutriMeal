@@ -2,8 +2,7 @@
 
 NutriMeal is a food ordering web application built using **React with JavaScript**. It allows users to browse available food items, select their menu, place an order, and provide necessary details like delivery address and payment method.
 
-## Live Demo
-🔗 NutriMeal Live
+[Live Demo ](https://nutrimeal1.netlify.app)
 
 ## Features
 - User authentication (Login & Signup)
