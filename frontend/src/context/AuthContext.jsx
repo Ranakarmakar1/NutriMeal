@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
   //login
  const login = async (email, password) => {
   try {
-    const res = await fetch('${process.env.REACT_APP_BACKEND_URL}/api/auth/login', {
+    const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/logi`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
