@@ -15,9 +15,10 @@ const app = express()
 
 // CORS – Temporarily allow all origins just for backend testing
 app.use(cors({
-  origin: '*', // ✅ Allow any origin (safe here because we don't handle cookies or auth from frontend now)
+  origin: 'https://nutrimeal.onrender.com',
   credentials: true
 }))
+
 
 
 app.use(express.json())
