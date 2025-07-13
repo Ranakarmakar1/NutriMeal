@@ -11,7 +11,11 @@ connectDB()
 
 // App init
 const app = express()
-app.use(cors())
+app.use(cors({
+  origin: 'https://nutrimeal-frontend.onrender.com',  // <-- your frontend URL
+  credentials: true
+}))
+
 app.use(express.json())
 
 // Routes
