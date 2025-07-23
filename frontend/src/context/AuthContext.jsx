@@ -1,5 +1,6 @@
 import { createContext, useState, useContext, useEffect } from 'react'
 
+
 const AuthContext = createContext()
 
 export function useAuth() {
@@ -24,7 +25,7 @@ export function AuthProvider({ children }) {
   //login
  const login = async (email, password) => {
   try {
-    const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/login`, {
+    const res = await fetch('https://nutrimeal-backend.onrender.com/api/auth/login', {
 
       method: 'POST',
       headers: {

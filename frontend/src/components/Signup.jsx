@@ -62,7 +62,7 @@ if (!allowedDomains.includes(domain)) {
 
   // API call
   try {
-const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/signup`, {
+const res = await fetch('https://nutrimeal-backend.onrender.com/api/auth/signup', {
 
 
       method: 'POST',
